@@ -1,0 +1,5 @@
+node_modules
+dist
+coverage
+./babel.config.json
+./jest.config.js

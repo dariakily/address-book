@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-blmEgr iCiykm"
+>
+  <div
+    className="sc-dmXWDj hPfekH"
+  >
+    <button
+      className="sc-hLQSwg euuwXi"
+      onClick={[Function]}
+    >
+      NEUER EINTRAG
+    </button>
+  </div>
+  <div
+    className="sc-khjJXk gVoSiI"
+  >
+    <button
+      className="sc-hLQSwg imjtzi"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="sc-ifyrAs jenTYb"
+  >
+    <button
+      className="sc-hIPBNq iuRXBv"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-eDLKkx kbaZxH sc-hABBmJ KByeX"
+        data-testid="test-contact-card"
+      >
+        <p
+          className="sc-fmKFGs dfauOe"
+        >
+          test1
+           
+          test1
+        </p>
+        <p
+          className="sc-fHejqy jTezMP"
+        >
+          test1@gmail.com
+        </p>
+      </div>
+    </button>
+    <button
+      className="sc-hIPBNq iuRXBv"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-eDLKkx kbaZxH sc-hABBmJ KByeX"
+        data-testid="test-contact-card"
+      >
+        <p
+          className="sc-fmKFGs dfauOe"
+        >
+          test2
+           
+          test2
+        </p>
+        <p
+          className="sc-fHejqy jTezMP"
+        >
+          test2@gmail.com
+        </p>
+      </div>
+    </button>
+    <button
+      className="sc-hIPBNq iuRXBv"
+      onClick={[Function]}
+    >
+      <div
+        className="sc-eDLKkx kbaZxH sc-hABBmJ KByeX"
+        data-testid="test-contact-card"
+      >
+        <p
+          className="sc-fmKFGs dfauOe"
+        >
+          test3
+           
+          test3
+        </p>
+        <p
+          className="sc-fHejqy jTezMP"
+        >
+          test3@gmail.com
+        </p>
+      </div>
+    </button>
+  </div>
+</div>
+`;
