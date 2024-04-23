@@ -65,7 +65,7 @@ export const useContactsService = create<IContactsService>((set, get) => ({
         });
       }
     } catch (error) {
-      console.error('Error adding contact:', error);
+      console.error('Error editing contact:', error);
     } finally {
       set({ isLoading: false });
     }
@@ -86,7 +86,7 @@ export const useContactsService = create<IContactsService>((set, get) => ({
         });
       }
     } catch (error) {
-      console.error('Error adding contact:', error);
+      console.error('Error deleting contact:', error);
     } finally {
       set({ isLoading: false });
     }

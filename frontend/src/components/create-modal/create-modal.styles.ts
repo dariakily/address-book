@@ -19,7 +19,7 @@ export const FormWrapper = styled.div`
       padding: 20px;
       display: flex;
       flex-direction: column;
-      gap: ${theme.gap.medium};
+      gap: ${theme.gap?.medium};
     `;
   }}
 `;
@@ -28,9 +28,9 @@ export const NameFormWrapper = styled.div`
   ${({ theme }) => {
     return css`
       display: flex;
-      gap: ${theme.gap.medium};
+      gap: ${theme.gap?.medium};
 
-      @media (max-width: ${theme.breakpoints.md}) {
+      @media (max-width: ${theme.breakpoints?.md}) {
         flex-direction: column;
       }
     `;
@@ -43,8 +43,8 @@ export const ModalActions = styled.div`
       padding: 8px 20px;
       display: flex;
       justify-content: flex-end;
-      gap: ${theme.gap.small};
-      background: ${theme.palette.grey.lightGrey};
+      gap: ${theme.gap?.small};
+      background: ${theme.palette?.grey?.lightGrey};
     `;
   }}
 `;

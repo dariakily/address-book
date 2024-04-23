@@ -2,60 +2,23 @@
 # Address Book
 - A front-end React application and back-end Nest application
 
-## Backend
-
-## Installation 
+## Run application with tests
 
 ```bash
-$ npm install
+  docker compose up
 ```
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-## Running the app
 
-Before running the application make sure that you have node.js (v21.7.2) and docker installed
+## Tests
 
+### To run FE tests separately go to frontend directory and run:
 ```bash
-# database
-$ docker compose up
+# tests
+  yarn test
 ```
-```bash
-# development mode
-$ npm run start:dev
-```
-```bash
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
+### To run BE tests separately go to backend directory and run:
 ```bash
 # unit tests
-$ npm run test
+  npm run test
 ```
-
-## Frontend
-
-## Setup
-
-- Run `yarn install` in the root directory
-- Run `yarn dev` in the root directory
-- Visit `localhost:3000` in your browser.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn dev`
-
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.
-
-### `yarn build`
-
-Builds the app for production to the `dist` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-Your app is ready to be deployed!
-

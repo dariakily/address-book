@@ -44,25 +44,25 @@ export const EditModal = ({ onClose, title, contact }: IEditModalProps) => {
           <Styled.FormWrapper>
             <Styled.NameFormWrapper>
               <Input
-                defaultValue={contact.firstname}
+                defaultValue={contact?.firstname}
                 {...register('firstname', { required: true })}
                 placeholder="Vorname*"
               />
               <Input
-                defaultValue={contact.lastname}
+                defaultValue={contact?.lastname}
                 {...register('lastname', { required: true })}
                 placeholder="Nachname*"
               />
             </Styled.NameFormWrapper>
             <Input
               type="email"
-              defaultValue={contact.email}
+              defaultValue={contact?.email}
               {...register('email', { required: true })}
               placeholder="E-Mail*"
             />
           </Styled.FormWrapper>
           <Styled.ModalActions>
-            <Button onClick={() => deleteContact(contact.id)} variant="destructive">
+            <Button onClick={() => deleteContact(contact?.id)} variant="destructive">
               LÖSCHEN
             </Button>
             <Styled.ButtonWrapper>

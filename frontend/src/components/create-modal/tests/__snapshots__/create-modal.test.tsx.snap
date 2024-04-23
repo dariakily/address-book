@@ -2,15 +2,17 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-eTNRI gPMBls"
+  className="sc-csKJxZ hIcYGP"
 >
   <div
-    className="sc-irLvIq dmeHHM"
+    className="sc-kFCroH fvwTMG"
     data-testid="test-spinner"
   >
     <div
-      className="sc-csKJxZ cyBFAV"
+      className="sc-irLvIq bvdhtb"
     />
   </div>
 </div>
 `;
+
+exports[`renders correctly 2`] = `null`;

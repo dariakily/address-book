@@ -11,6 +11,9 @@ describe('Modal', () => {
       </Modal>
     );
 
+    const test = screen.getAllByTestId('test-modal');
+    fireEvent.click(test[0]);
+
     expect(screen.getByTestId('test-modal')).toBeInTheDocument();
     expect(screen.getByText('Test Modal')).toBeInTheDocument();
     expect(screen.getByText('Modal Content')).toBeInTheDocument();

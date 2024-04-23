@@ -1,0 +1,15 @@
+FROM node:21.7.2
+
+WORKDIR /backend
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 8000
+
+RUN npm run test
+
+CMD ["npm", "run", "start:prod"]

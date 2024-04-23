@@ -12,8 +12,13 @@ export default defineConfig({
   },
   plugins: [react(), EnvironmentPlugin('all', { prefix: 'REACT_APP_' })],
   server: {
-    port: 3000,
-    open: true
+    host: '0.0.0.0',
+    watch: {
+      usePolling: true
+    },
+    hmr: {
+      host: '0.0.0.0',
+    },
   },
   define: {
     global: 'window'

@@ -18,16 +18,16 @@ export const ModalContainer = styled.div`
     return css`
       display: flex;
       flex-direction: column;
-      row-gap: ${theme.gap.small};
+      row-gap: ${theme.gap?.small};
       min-width: 536px;
       margin: 10px;
       padding: 0px;
-      background-color: ${theme.palette.white};
+      background-color: ${theme.palette?.white};
       border-radius: 8px;
       overflow: hidden;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-      @media (max-width: ${theme.breakpoints.md}) {
+      @media (max-width: ${theme.breakpoints?.md}) {
         min-width: 400px;
       }
     `;
@@ -44,12 +44,12 @@ export const ModalHeader = styled.div`
 export const ModalTitle = styled.h2`
   ${({ theme }) => {
     return css`
-      color: ${theme.palette.grey.borderGrey};
-      font-size: ${theme.typography.fontSize.large};
+      color: ${theme.palette?.grey?.borderGrey};
+      font-size: ${theme.typography?.fontSize?.large};
 
-      @media (max-width: ${theme.breakpoints.md}) {
-        font-size: ${theme.typography.fontSize.medium};
-        line-height: ${theme.typography.lineHeight.md};
+      @media (max-width: ${theme.breakpoints?.md}) {
+        font-size: ${theme.typography?.fontSize?.medium};
+        line-height: ${theme.typography?.lineHeight?.md};
       }
     `;
   }}

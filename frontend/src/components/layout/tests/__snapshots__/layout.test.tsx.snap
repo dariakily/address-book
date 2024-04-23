@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App correctly 1`] = `
+[
+  <header
+    className="sc-beySPh kSpHrS"
+  >
+    <div
+      className="sc-guDLey fHbHWv"
+    >
+      <h1
+        className="sc-dmyCSP eBOhir"
+      >
+        ADRESSBUCH
+      </h1>
+    </div>
+  </header>,
+  <main>
+    <div
+      className="sc-eTNRI eHkrbZ"
+      data-testid="test-spinner"
+    >
+      <div
+        className="sc-brSamD iVLbrY"
+      />
+    </div>
+  </main>,
+  <div />,
+]
+`;
+
+exports[`renders correctly 1`] = `
+[
+  <header
+    className="sc-beySPh cOeJqa"
+  >
+    <div
+      className="sc-guDLey dQJRti"
+    >
+      <h1
+        className="sc-dmyCSP hYeZXF"
+      >
+        ADRESSBUCH
+      </h1>
+    </div>
+  </header>,
+  <main />,
+  <div />,
+]
+`;

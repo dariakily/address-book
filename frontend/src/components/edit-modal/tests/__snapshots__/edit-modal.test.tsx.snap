@@ -2,15 +2,21 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="sc-eTNRI gPMBls"
+  className="sc-ktwOfi dSPMWs"
 >
   <div
-    className="sc-irLvIq dmeHHM"
+    className="sc-eTNRI eHkrbZ"
     data-testid="test-spinner"
   >
     <div
-      className="sc-csKJxZ cyBFAV"
+      className="sc-brSamD eQuigN"
     />
   </div>
+</div>
+`;
+
+exports[`renders test correctly 1`] = `
+<div>
+  test
 </div>
 `;

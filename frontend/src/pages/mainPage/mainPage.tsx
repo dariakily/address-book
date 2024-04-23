@@ -49,7 +49,7 @@ const MainPage = () => {
               </Styled.CardButton>
             ))
           ) : (
-            <Styled.NoData>No data found</Styled.NoData>
+            <p>No data found</p>
           )}
         </Styled.ImageWrapper>
       </Styled.Container>

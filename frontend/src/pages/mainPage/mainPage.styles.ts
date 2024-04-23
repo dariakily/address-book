@@ -38,17 +38,6 @@ export const ImageWrapper = styled.div`
   }}
 `;
 
-export const NoData = styled.p`
-  ${({ theme }) => {
-    return css`
-      color: ${theme.palette?.secondary?.main};
-      font-size: ${theme.typography.fontSize?.large};
-      font-size: ${theme.typography.fontWeight?.bold};
-      line-height: ${theme.typography.lineHeight?.lg};
-    `;
-  }}
-`;
-
 export const CardButton = styled.button`
   border: 0;
   cursor: pointer;
